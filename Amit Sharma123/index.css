@@ -1,0 +1,1779 @@
+body{
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif
+
+}
+html{
+    scroll-behavior: smooth;
+}
+.header1{
+    background-color: black;
+    height: 5vh;
+}
+.topnav a{
+    position: relative;
+    color: white;
+    float: right;
+    right: 32vh;
+    margin-right: 6vh;
+    text-decoration: none;
+}
+.sociallink i {
+    position: relative;
+    left: 10em;
+    word-spacing: 1em;
+    font-size: 21px;
+    /* border: 1px solid; */
+    width: 1em;
+    color: white;
+    margin-left: 15px;
+    transition: transform 0.7s;
+}
+.sociallink :hover{
+    transform: scale(1.7);
+}
+.navbar a{
+    text-decoration: none;
+    /* line-height: 43px; */
+    margin-right: 23px;
+    float: right;
+    right: 14em;
+    position: relative;
+    top: 1em;
+    display: flex;
+    transition: transform 0.2s;
+}
+.navbar :hover{
+    transform: scale(1.2);
+}
+.rnsitlogo{
+    position: relative;
+    left: 15em;
+    font-size: -184px;
+    /* border: 1px solid; */
+    width: 3em;
+    top: 6px;
+    transition: transform 0.7s;
+}
+.rnsitlogo:hover{
+    transform: scale(1.3);
+}
+.serach{
+    background-color: #ff6500;
+    height: 32px;
+    width: 32px;
+    float: right;
+    position: relative;
+    right: 16em;
+    top: 2vh;
+    /* border-radius: 8px ; */
+    border: none;
+}
+#adform{
+    /* border: 1px solid black; */
+    position: relative;
+    width: 18em;
+    float: right;
+    text-align: center;
+    right: 12em;
+    top: 35px;
+    padding-top: -2em;
+    line-height: 2em;
+    background-color: white;
+    height: 25em;
+}
+
+.formheading > img{
+    width: 18em;
+}
+.formheading > h3{
+    position: relative;
+    bottom: 5em;
+    color: white;
+}
+.std-details{
+    display: flex;
+    flex-direction: column;
+    height: 17em;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    bottom: 4em;
+}
+.formentry{
+    width: 19em;
+    height: 24px;
+    background-color: #f7f7f7;
+}
+.progselection{
+    width: 262px;
+    height: 31px;
+    background-color: #f7f7f7;
+
+}
+#img1{
+    background-image:url("./Assest/header-background.png");
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+    height: 90vh;
+    background-position-y: center;
+    
+}
+.fapply{
+    width: 20em;
+    height: 33px;
+    background-color: #ff6500;
+    color: white;
+
+}
+
+.rnstitle{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    /* border: 1px solid; */
+    width: 19em;
+    line-height: 3em;
+    left: 15em;
+    top: em;
+    font-size: larger;
+    transition: transform 0.7s;
+}
+.rnstitle:hover{
+    transform: scale(1.2);
+}
+.rnstitle > h4{
+    position: relative;
+    top: 4em;
+    font-size: small;
+    left: 3vh;
+}
+.rnstitle > h2{
+    position: relative;
+    top: -59px;
+    font-size: xxx-large;
+    color: #ff6500;
+}
+.futureicon> img{
+    position: relative;
+    top: 132px;
+}
+.rnstitle > i{
+    position: relative;
+    width: 10em;
+}
+.rnstitle > button{
+    position: relative;
+    width: 24vh;
+    height: 7vh;
+    border-radius: 22px;
+    bottom: 6em;
+    background-color: #ff6500;
+    color: white;
+}
+.rnstitle > button > i{
+    position: relative;
+    font-size: 20px;
+    left: 13px;
+}
+.events{
+    /* border: 2px solid black;  */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 85em;
+    height: 27em;
+    top: -4em;
+    position: relative;
+    background-image: url("./Assest/Group-1.png");
+    background-position: center;
+}
+#eventsline{
+    text-align: center;
+    position: top;
+    position: relative;
+    top: em;
+    font-size: xxx-large;
+    z-index: +1;
+}
+.events div{
+    align-items: center;
+    margin: 10px;
+    padding-top: -8em;
+    width: 321px;
+    background-color: #95ff7f26;
+    height: 18em;
+}
+.events  p{
+    bottom: 4em;
+    position: relative;
+}
+.latestevents1{
+    width: 20em;
+    height: 15em;
+    position: relative;
+    transition: transform 0.8s;
+}
+.latestevents1:hover{
+    transform: scale(1.1);
+}
+.sep{
+    position: relative;
+    bottom: 55px;
+    left: 0px;
+    width: 51px;
+}
+#readmore{
+    color: white;
+    background-color: #09015f;
+    position: relative;
+    bottom: 5em;
+    height: 26px;
+    width: 96px;
+    border-radius: 9px;
+}
+#ourmission{
+    /* border: 2px solid black; */
+    height: 25em;
+    background-image: url(./Assest/shape-bg.png);
+    bottom: 8vh;
+    position: relative;
+}
+#bgshape{
+    position: relative;
+}
+.missionimage{
+    position: relative;
+    /* display: flex; */
+    width: 25em;
+    left: 12em;
+    height: 17em;
+    transition: transform 0.9s;
+}
+.missionimage:hover{
+    transform: scale(1.2);
+}
+#titlemission{
+    position: relative;
+    top: 57px;
+    left: 114vh;
+    width: 4em;
+    /* border: 2px solid; */
+    color: white;
+}
+.misionhr{
+    width: 21vh;
+    position: relative;
+    left: 26vh;
+    top: 3vh;
+    color: #ff6500;
+}
+.para1{
+    top: -15em;
+    position: relative;
+    left: 40em;
+    width: 29em;
+    color: white;
+}
+#vision{
+    /* border: 2px solid;  */
+    display:flex ;
+    height: 31em;
+    background-image: url(./Assest/Rectangle\ 22\ copy.png);
+    width: 83em;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    bottom: 45px;
+}
+.showimg{
+    position: relative;
+    left: 47em;
+    width: 28em;
+    top: -2em;
+    height: 22em;
+}
+hr{
+    width: 21vh;
+    position: relative;
+    left: 22vh;
+    bottom: 19px;
+}
+.visionimg{
+    position: relative;
+    float: right;
+    width: 24em;
+    right: 10em;
+
+    top: -21em;
+    height: 18em;
+}
+.visionline{
+    position: relative;
+    left: 61vh;
+    bottom: 4px;
+}
+
+.visionheading{
+    width: 197px;
+    height: 39px;
+    font-size: 50px;
+    line-height: 23px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Poppins";
+    position: relative;
+    left: 26vh;
+    top: 6vh;
+}
+.visionpara1 {
+    width: 500px;
+    height: 234px;
+    font-size: 18px;
+    line-height: 27px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Poppins";
+    left: 9em;
+    position: relative;
+    top: -21em;
+}
+#strength{
+    /* border: 2px solid black;  */
+    background-image: url(./Assest/Layer\ 8.png);
+    height: 33em;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-size: 83em;
+    background-repeat: no-repeat;
+    bottom: 45px;
+}
+.strengthicons{
+    display: flex;
+    justify-content: space-around;
+    width: 59em;
+    position: relative;
+    top: 7.5em;
+    left: 5vh;
+    z-index: +1;
+
+}
+.strengthicons > i{
+    position: relative;
+    left: 20vh;
+    color: #ff6500;
+    font-size: xx-large;
+    
+}
+.placedcompany{
+    display: flex;
+    /* border: 1px solid; */
+    flex-flow: row wrap;
+    width: 95em;
+    justify-content: space-between;
+    height: 22em;
+    position: relative;
+    left: -5em;
+    bottom: 0vh;
+}
+.placedcompany > div{
+    width: 177px;
+    height: 5em;
+    background-color: #f3f3f3;
+    top: 9em;
+    position: relative;
+    text-align: center;
+    padding-top: 4vh;
+    left: -20em;
+}
+.companylogo > img {
+    position: relative;
+}
+
+.placedcompany h2{
+    /* border: 1px solid; */
+    height: 1em;
+    position: relative;
+    left: 11em;
+    width: 15em;
+    text-align: center;
+    font-size: 7vh;
+    font-family: "Poppins";
+    color: #101010;
+    font-family: "Poppins";
+    bottom: 1em;
+}
+.company{
+    width: 145px;
+    height: 50px;
+    background-color: #f3f3f3;
+}
+.campuslife h1{
+    /* border: 1px solid; */
+    width: 14em;
+    justify-content: center;
+    text-align: center;
+    margin-left: 13em;
+}
+.campus-infra{
+    background-color: #f3f3f3;
+}
+.campuslife{
+    /* border: 2px solid black; */
+    height: 36em;
+    position: relative;
+    left: 16em;
+    justify-content: space-evenly;
+    width: 51em;
+    /* background-color: #f3f3f3; */
+    display: flex;
+    flex-wrap: wrap;
+    top: 2em;
+}
+.tag{
+    position: relative;
+    left: 39em;
+    top: 3em;
+}
+.small-img{
+    width: 16em;
+    height: 10em;
+}
+.big-img{
+    width: 16em;
+    height: 20em;
+}
+.adjust{
+    position: relative;
+    bottom: 10em;
+}
+.campus-infra > h1{
+     /* border: 1px solid; */
+     width: 12em;
+     position: relative;
+     text-align: center;
+     left: 10em;
+     font-size: 2;
+     font-size: 7vh;
+     top: 1em;
+}
+#dept {
+    background-image: url(./Assest/shape-bg.png);
+    height: 24em;
+    height: 5;
+    position: relative;
+    top: -32px; 
+    display: flex;
+}
+.depticons{
+    display: flex;
+    justify-content: space-around;
+    width: 130em;
+    position: relative;
+    top: 39vh;
+    left: -37vh;
+    z-index: +1;
+}
+.depticons i {
+    position: relative;
+    left: -23vh;
+    color: white;
+    font-size: xx-large;
+    top: 13px;
+
+}
+#dept h1{
+    position: relative;
+    color: white;
+    font-size: xxx-large;
+    text-align: center;
+    top: 11px;
+    left: 10em;
+}
+#dept h3{
+    bottom: 39px;
+    position: relative;
+}
+.Department{
+        /* border: 1px solid black; */
+        position: relative;
+        width: 15em;
+        display: inline-block;
+        top: 10em;
+        height: 9em;
+        border-radius: 2em;
+        margin: 10px;
+        text-align: center;
+        left: -12em;
+        background-color: white;
+
+
+}
+.Department img{
+    position: relative;
+    height: 8em;
+    width: 15em;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+    bottom: 25px;
+}
+.clienttag{
+    position: relative;
+    width: 5em;
+    left: 37em;
+    top: 0em;
+}
+#ourclient{
+    /* border: 1px solid black; */
+    position: relative;
+    display: flex;
+    left: 0em;
+    width: 83em;
+    height: 26em;
+    /* background-image: url(./Assest/Group--2.png); */
+    padding-top: 14vh;
+    top: -19vh;
+}
+.clientdetail{
+    position: relative;
+    font-size: 2em;
+    top: 306px;
+    right: 5em;
+    color: #ff6500;
+}
+.clientname{
+    position: relative;
+    bottom: 132px;
+    color: #09015f;
+    left: 4em;
+}
+.position{
+    position: relative;
+    right: -4em;
+    bottom: 149px;
+    color: #09015f;
+}
+#mclientname{
+    position: relative;
+    top: -174px;
+}
+.mposition{
+    position: relative;
+    top: -6em;
+}
+.allclient{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 12em;
+    bottom: 7em;
+    width: 58em;    
+
+}
+#ourclient img{
+    position: relative;
+    top: -3em;
+}
+#ourclient h1{
+    /* border: 1px solid; */
+    height: 1em;
+    width: 13em;
+    text-align: center;
+    position: relative;
+    left: 14em;
+}
+
+.clientsays{
+    /* border: 1px solid black; */
+    position: relative;
+    width: 20em;
+    height: 14em;
+    color: white;
+    margin: 1em;
+    top: 5em;
+    right: 13em;
+}
+.clientpara{
+    /* border: 1px solid black; */
+    width: 16em;
+    left: 2em;
+    position: relative;
+    top: 1em;
+}
+#client1{
+    /* background-image: url(./Assest/Rectangle\ 33.png); */
+    background-color: #09015f;
+}
+#client1:hover{
+    background-color: #ff6500;
+}
+
+.clientsays i{
+    position: relative;
+    font-size: 7vh;
+    left: 4vh;
+    top: 6vh;
+}
+#client2{
+    /* background-image: url(./Assest/Rectangle\ 33\ copy\ 2.png); */
+    background-color: #09015f;
+}
+#client2:hover{
+    background-color: #ff6500;
+}
+#client3{
+    /* background-image: url(./Assest/Rectangle\ 33.png); */
+    background-color: #09015f;
+}
+#client3:hover{
+    background-color: #ff6500;
+}
+.allbottomlinks{
+    background-image: url(./Assest/Rectangle\ 15\ \(1\).png);
+    position: relative;
+    /* border: 1px solid; */
+    height: 25em;
+    top: 0em;
+}
+.links{
+    position: relative;
+    display: inline-block;
+    height: 10em;
+}
+.quicklinks{
+    position: relative;
+    list-style: none;
+    float: right;
+    border: none;
+    height: 17em;;
+    border-left: groove;
+    left: 35em;
+    top: -10em;
+    color: white;
+    width: 12em;
+    line-height: 34px;
+    top: -15em;
+}
+.bottomlogo{
+    position: relative;
+    left: 14em;
+    top: 3em;
+}
+.allbottomlinks p{
+    position: relative;
+    /* border: 1px solid; */
+    width: 13em;
+    left: 224px;
+    top: 2em;
+    color: white;
+    line-height: 2em;
+}
+.quicklinks a{
+    position: relative;
+
+}
+.footer{
+    position: relative;
+    background-image: url(./Assest/footerbg.png);
+    top: -19px;
+}
+.footer h3{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+/* Mobile Responsive max pixel 420  */
+@media(max-width: 420px) {
+    .header1 {
+        background-color: black;
+        height: 11vh;
+        width: 101em;
+        font-size: 1em;
+    }
+    .navbar a {
+        text-decoration: none;
+        /* line-height: 43px; */
+        margin-right: 23px;
+        /* float: right; */
+        /* right: 14em; */
+        left: 60em;
+        position: relative;
+        top: 1em;
+        flex-direction: row;
+    }
+    .serach {
+        display: none;
+    }
+    .navbar{
+        display: none;
+    }
+        
+    #img1 {
+        /* background-image: url(./Assest/header-background.png); */
+        /* background-repeat: no-repeat;
+        position: relative;
+        background-size: contain;
+        height: 113vh;
+        width: 100em; */
+        height: 85em;
+        width: 102em;
+        background-position-x: right;
+    }
+    #adform {
+        /* border: 1px solid black; */
+        /* position: relative;
+        width: 18em;
+        float: right;
+        text-align: center;
+        right: -68em;
+        top: 22em;
+        padding-top: -2em;
+        line-height: 2em;
+        background-color: white;
+        height: 25em; */
+        /* border: 1px solid black; */
+        border: 1px solid black;
+        position: relative;
+        width: 37em;
+        /* float: right; */
+        text-align: center;
+        /* right: 12em; */
+        top: 42em;
+        padding-top: -2em;
+        line-height: 2em;
+        background-color: white;
+        height: 39em;
+        right: 10em;
+        display: flex;        
+    }
+    .fapply {
+        width: 38em;
+        height: 41px;
+        background-color: #ff6500;
+        color: white;
+    }
+    .formentry {
+        width: 16em;
+        height: 34px;
+        background-color: #f7f7f7;
+        font-size: 2em;
+    }
+    .progselection {
+        width: 38em;
+        height: 31px;
+        background-color: #f7f7f7;
+        /* display: flex; */
+    }
+    .formheading > img {
+        width: 37em;
+        left: 0em;
+        position: relative;
+    }
+    .formheading > h3 {
+        position: relative;
+        bottom: 4em;
+        color: white;
+        font-size: 3em;
+    }
+    .std-details {
+        display: flex;
+        flex-direction: column;
+        height: 25em;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        bottom: -11em;
+        right: 35em;
+    }
+    .rnstitle {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    /* border: 1px solid; */
+    width: 23em;
+    line-height: 3em;
+    left: 3em;
+    top: em;
+    font-size: 4em;
+    transition: transform 0.7s;
+    bottom: 16em;
+}
+.rnstitle > h4 {
+    position: relative;
+    top: 2em;
+    font-size: 1em;
+    left: 3vh;
+}
+.rnstitle > button {
+    position: relative;
+    width: 50vh;
+    height: 15vh;
+    border-radius: 22px;
+    bottom: -1em;
+    background-color: #ff6500;
+    color: white;
+    left: 0em;
+    font-size: 1em;
+}
+    .events {
+            /* border: 2px solid black; */
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* width: 85em; */
+    height: 85em;
+    top: -4em;
+    position: relative;
+    /* background-image: url(./Assest/Group-1.png); */
+    /* background-position: center; */
+    flex-direction: column;
+    gap: 0em;
+}
+.latestevents1 {
+    width: 48em;
+    height: 27em;
+    position: relative;
+    right: -5em;
+    top: 2em;
+    /* transition: transform 0.8s; */
+}
+.events div {
+    width: 86em;
+    height: 30em;
+    left: 6em;
+    position: relative;
+    top: 4em;
+}
+#eventsline {
+    text-align: center;
+    position: top;
+    position: relative;
+    top: em;
+    /* font-size: xxx-large; */
+    z-index: +1;
+    font-size: 5em;
+    left: 6em;
+    width: 9em;
+    bottom: 10px;
+}
+.events p {
+    bottom: 4em;
+    position: relative;
+    left: 18em;
+    width: 9em;
+    font-size: 3em;
+    bottom: 9em;
+}
+#readmore {
+    color: white;
+    background-color: #09015f;
+    position: relative;
+    bottom: 14em;
+    height: 70px;
+    width: 186px;
+    border-radius: 9px;
+    font-size: 2em;
+    left: 32em;
+}
+.sep {
+    position: relative;
+    bottom: -34px;
+    left: -24px;
+    width: 98px;
+}
+    #ourmission {
+        /* border: 2px solid black; */
+        height: 136em;
+        background-image: url(./Assest/shape-bg.png);
+        bottom: 8vh;
+        position: relative;
+        width: 95em;
+        top: 2em;
+    
+}
+.para1 {
+    top: 2em;
+    position: relative;
+    left: 2em;
+    width: 29em;
+    color: white;
+    font-size: 3em;
+}
+.missionimage {
+    position: relative;
+    width: 71em;
+    left: 12em;
+    height: 36em;
+    /* transition: transform 0.9s; */
+    top: 4em;
+}
+#titlemission {
+    position: relative;
+    top: 35px;
+    left: 50vh;
+    /* width: 4em; */
+    /* border: 2px solid; */
+    color: white;
+    font-size: 10em;
+}
+.misionhr {
+    display: none;
+}
+#vision {
+    /* border: 2px solid; */
+    height: 129em;
+    width: 95em;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    bottom: 45px;
+    top: 2em;
+}
+.visionheading {
+    width: 197px;
+    height: 39px;
+    font-size: 11em;
+    line-height: 23px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Poppins";
+    position: relative;
+    left: 55vh;
+    top: -2vh;
+}
+.visionpara1 {
+    width: 26em;
+    height: 661px;
+    font-size: 51px;
+    line-height: 70px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Poppins";
+    left: 2em;
+    position: relative;
+    top: -1em;
+}
+.showimg {
+    position: relative;
+    left: 9em;
+    width: 78em;
+    top: -2em;
+    height: 50em;
+}
+#strength {
+    /* border: 2px solid black; */
+        /* border: 2px solid black; */
+        background-image: url(./Assest/Layer\ 8.png);
+        height: 33em;
+        position: relative;
+        background-size: cover;
+        background-position: revert;
+        background-size: 83em;
+        background-repeat: no-repeat;
+        /* bottom: 45px; */
+        width: 85em;
+        top: 2em;
+        left: 5em;   
+}
+.strengthicons {
+    display: flex;
+    justify-content: space-around;
+    width: 59em;
+    position: relative;
+    top: 6.5em;
+    left: -5vh;
+    z-index: +1;
+}
+.placedcompany {
+    display: flex;
+    /* border: 1px solid; */
+    flex-flow: row wrap;
+    width: 95em;
+    justify-content: space-between;
+    height: 103em;
+    position: relative;
+    left: -8em;
+    bottom: 0vh;
+    flex-direction: column;
+}
+.placedcompany > div {
+    width: 700px;
+    height: 12em;
+    background-color: #f3f3f3;
+    top: 3em;
+    position: relative;
+    text-align: center;
+    padding-top: 4vh;
+    left: 35em;
+}
+.companylogo{
+    position: relative;
+    width: 41em;
+    height: 12em;
+}
+.placedcompany h2 {
+    /* border: 1px solid; */
+    height: 1em;
+    position: relative;
+    left: 7em;
+    width: 15em;
+    text-align: center;
+    font-size: 7vh;
+    font-family: "Poppins";
+    color: #101010;
+    font-family: "Poppins";
+    bottom: 0em;
+}
+.campus-infra {
+    background-color: #f3f3f3;
+    position: relative;
+    width: 93em;
+    left: 1em;
+    top: 6em;
+    height: 154em;
+}
+.small-img {
+    width: 72em;
+    height: 42em;
+    position: relative;
+    display: flex;
+    left: 5em;
+}
+.big-img {
+    display: none;
+}
+.campus-infra > h1 {
+    /* border: 1px solid; */
+    width: 12em;
+    position: relative;
+    text-align: center;
+    left: 6em;
+    font-size: 2;
+    font-size: 7vh;}
+    #dept {
+        /* background-image: url(./Assest/shape-bg.png); */
+        height: 135em;
+        position: relative;
+        top: 117px;
+        width: 92em;
+        left: 14px;
+        flex-direction: column;
+        gap: 4em;
+    }
+
+    .Department {
+        /* border: 1px solid black; */
+        position: relative;
+        width: 44em;
+        display: flex;
+        top: 1em;
+        height: 23em;
+        border-radius: 2em;
+        margin: 10px;
+        text-align: center;
+        left: 22em;
+        background-color: white;
+        flex-direction: column;
+    }
+    .Department img {
+        position: relative;
+        height: 21em;
+        width: 44em;
+        /* border-top-left-radius: 2em; */
+        /* border-top-right-radius: 2em; */
+        bottom: 25px;
+    }
+    #dept h1 {
+        position: relative;
+        display: flex;
+        left: 431px;
+        font-size: 5em;
+    }
+    .tag {
+        position: relative;
+    left: 95em;
+    top: 5em;
+    }
+    #dept h3 {
+        bottom: 79px;
+        position: relative;
+        font-size: 3em;
+    }
+    #ourclient {
+        /* border: 1px solid black; */
+        position: relative;
+        display: flex;
+        left: 5em;
+        width: 83em;
+        height: 113em;
+        /* background-image: url(./Assest/Group--2.png); */
+        padding-top: 14vh;
+        top: -30vh;
+        flex-direction: column;
+        gap: 16em;
+    }
+    .clienttag{
+        position: relative;
+    width: 5em;
+    left: 42em;
+    top: 15em;
+    }
+    #ourclient h1 {
+            /* border: 1px solid; */
+    height: 1em;
+    width: 13em;
+    text-align: center;
+    position: relative;
+    left: 0em;
+    font-size: 6em;
+    top: 3em;
+    }
+    #ourclient img {
+        position: relative;
+        top: 4em;
+        width: 14em;
+    }
+    .clientsays {
+        position: relative;
+    width: 72em;
+    height: 68em;
+    color: white;
+    margin: 1em;
+    top: 2em;
+    left: 5em;
+    right: 13em;
+    }
+    .clientpara {
+    width: 14em;
+    left: 1em;
+    position: relative;
+    top: 1em;
+    font-size: 4em;
+    }
+    .position {
+        position: relative;
+        /* right: -18em; */
+        bottom: 4em;
+        color: #09015f;
+        font-size: 5em;
+        left: 3em;
+    }
+    .mposition{
+        position: relative;
+    top: -118px;
+        
+    }
+    #mclientname{
+        position: relative;
+        top: -434px;
+    }
+    .clientname {
+        position: relative;
+        bottom: 3em;
+        color: #09015f;
+        left: 3em;
+        font-size: 5em;
+    }
+.allbottomlinks {
+    /* background-image: url(./Assest/Rectangle\ 15\ \(1\).png); */
+    position: relative;
+    /* border: 1px solid; */
+    height: 75em;
+    top: 168em;
+    width: 95em;
+}
+.bottomlogo {
+    position: relative;
+    left: 4em;
+    top: 5em;
+    width: 23em;
+}
+.allbottomlinks p {
+    position: relative;
+    /* border: 1px solid; */
+    width: 21em;
+    left: 10em;
+    top: -8em;
+    color: white;
+    line-height: 2em;
+    font-size: 3em;
+}
+.quicklinks {
+    position: relative;
+    list-style: none;
+    float: right;
+    border: none;
+    height: 16em;
+    border-left: groove;
+    left: 1em;
+    top: -10em;
+    color: white;
+    width: 10em;
+    line-height: 87px;
+    top: -10em;
+    font-size: 45px;
+}
+.footer {
+    position: relative;
+    /* background-image: url(./Assest/footerbg.png); */
+    top: 166em;
+    width: 95em;
+}
+.footer h3 {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 3em;
+}
+}
+
+/* Mobile Responsive max pixel 820  */
+@media(max-width: 820px) and (min-width:520px) {
+     .header1 {
+        background-color: black;
+    height: 11vh;
+    width: 205em;
+     }
+    .navbar a {
+        text-decoration: none;
+        /* line-height: 43px; */
+        margin-right: 23px;
+        /* float: right; */
+        /* right: 14em; */
+        left: 60em;
+        position: relative;
+        top: 1em;
+        flex-direction: row;
+    }
+    .serach {
+        display: none;
+    }
+    .navbar{
+        display: none;
+    }
+        
+    #img1 {
+        /* background-image: url(./Assest/header-background.png); */
+        /* background-repeat: no-repeat;
+        position: relative;
+        background-size: contain;
+        height: 113vh;
+        width: 100em; */
+        height: 85em;
+        width: 203em;
+        background-position-x: right;
+    }
+    #adform {
+        /* border: 1px solid black; */
+        /* position: relative;
+        width: 18em;
+        float: right;
+        text-align: center;
+        right: -68em;
+        top: 22em;
+        padding-top: -2em;
+        line-height: 2em;
+        background-color: white;
+        height: 25em; */
+        /* border: 1px solid black; */
+        border: 1px solid black;
+        position: relative;
+        width: 37em;
+        /* float: right; */
+        text-align: center;
+        /* right: 12em; */
+        top: 42em;
+        padding-top: -2em;
+        line-height: 2em;
+        background-color: white;
+        height: 39em;
+        right: 10em;
+        display: flex;        
+    }
+    .fapply {
+        width: 38em;
+        height: 41px;
+        background-color: #ff6500;
+        color: white;
+    }
+    .formentry {
+        width: 16em;
+        height: 34px;
+        background-color: #f7f7f7;
+        font-size: 2em;
+    }
+    .progselection {
+        width: 38em;
+        height: 31px;
+        background-color: #f7f7f7;
+        /* display: flex; */
+    }
+    .formheading > img {
+        width: 37em;
+        left: 0em;
+        position: relative;
+    }
+    .formheading > h3 {
+        position: relative;
+        bottom: 4em;
+        color: white;
+        font-size: 3em;
+    }
+    .std-details {
+        display: flex;
+        flex-direction: column;
+        height: 25em;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        bottom: -11em;
+        right: 35em;
+    }
+    .rnstitle {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    /* border: 1px solid; */
+    width: 23em;
+    line-height: 3em;
+    left: 3em;
+    top: em;
+    font-size: 4em;
+    transition: transform 0.7s;
+    bottom: 6em;
+}
+.rnstitle > h4 {
+    position: relative;
+    top: 2em;
+    font-size: 1em;
+    left: 3vh;
+}
+.rnstitle > button {
+    position: relative;
+    width: 50vh;
+    height: 15vh;
+    border-radius: 22px;
+    bottom: -1em;
+    background-color: #ff6500;
+    color: white;
+    left: 0em;
+    font-size: 1em;
+}
+    .events {
+            /* border: 2px solid black; */
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* width: 85em; */
+    height: 85em;
+    top: -4em;
+    position: relative;
+    /* background-image: url(./Assest/Group-1.png); */
+    /* background-position: center; */
+    flex-direction: column;
+    gap: 0em;
+}
+.latestevents1 {
+    width: 48em;
+    height: 27em;
+    position: relative;
+    right: -5em;
+    top: 2em;
+    /* transition: transform 0.8s; */
+}
+.events div {
+    width: 188em;
+    height: 30em;
+    left: 61em;
+    position: relative;
+    top: 4em;
+}
+#eventsline {
+    text-align: center;
+    position: top;
+    position: relative;
+    top: em;
+    /* font-size: xxx-large; */
+    z-index: +1;
+    font-size: 5em;
+    left: 6em;
+    width: 9em;
+    bottom: 10px;
+}
+.events p {
+    position: relative;
+    left: 10em;
+    width: 14em;
+    font-size: 7em;
+    bottom: 5em;
+}
+#readmore {
+    color: white;
+    background-color: #09015f;
+    position: relative;
+    bottom: 10em;
+    height: 122px;
+    width: 348px;
+    border-radius: 9px;
+    font-size: 4em;
+    left: 28em;
+}
+.sep {
+    position: relative;
+    bottom: -34px;
+    left: -24px;
+    width: 98px;
+}
+    #ourmission {
+        /* border: 2px solid black; */
+        height: 222em;
+        background-image: url(./Assest/shape-bg.png);
+        bottom: 8vh;
+        position: relative;
+        width: 199em;
+    top: 2em;    
+}
+.para1 {
+    top: 2em;
+    position: relative;
+    left: 3em;
+    width: 37em;
+    color: white;
+    font-size: 5em;
+}
+.missionimage {
+    position: relative;
+    width: 156em;
+    left: 21em;
+    height: 98em;
+    /* transition: transform 0.9s; */
+    top: 4em;
+}
+#titlemission {
+    position: relative;
+    top: 35px;
+    left: 112vh;
+    /* width: 4em; */
+    /* border: 2px solid; */
+    color: white;
+    font-size: 10em;
+}
+.misionhr {
+    display: none;
+}
+#vision {
+    height: 208em;
+    width: 199em;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    bottom: 45px;
+    top: 2em;
+}
+.visionheading {
+    width: 197px;
+    height: 39px;
+    font-size: 11em;
+    line-height: 23px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Poppins";
+    position: relative;
+    left: 116vh;
+    top: -2vh;
+}
+.visionpara1 {
+    width: 29em;
+    height: 898px;
+    font-size: 100px;
+    line-height: 107px;
+    color: #ffffff;
+    font-weight: 300;
+    font-family: "Poppins";
+    left: 2em;
+    position: relative;
+    top: -1em;
+}
+.showimg {
+    position: relative;
+    left: 9em;
+    width: 181em;
+    top: -2em;
+    height: 104em;
+}
+#strength {
+    /* border: 2px solid black;  */
+    position: relative;
+    background-size: cover;
+    background-position: revert;
+    /* background-size: 83em; */
+    /* background-repeat: no-repeat; */
+    /* bottom: 45px; */
+    width: 194em;
+    top: 2em;
+    left: 5em;
+    height: 77em;  
+}
+.strengthicons {
+    display: flex;
+    justify-content: space-around;
+    width: 59em;
+    position: relative;
+    top: 6.5em;
+    left: -5vh;
+    z-index: +1;
+}
+.placedcompany {
+    display: flex;
+    /* border: 1px solid; */
+    flex-flow: row wrap;
+    width: 95em;
+    justify-content: space-between;
+    height: 298em;
+    position: relative;
+    left: 15em;
+    bottom: 0vh;
+    flex-direction: column;
+}
+.strengthicons > i {
+    position: relative;
+    left: 105vh;
+    color: #ff6500;
+    font-size: 4em;
+    margin-right: 8em;
+    top: 2em;
+}
+.placedcompany > div {
+    width: 123em;
+    height: 48em;
+    background-color: #f3f3f3;
+    top: 3em;
+    position: relative;
+    /* text-align: center; */
+    /* padding-top: 4vh; */
+    left: 29em;
+}
+.companylogo{
+    position: relative;
+    width: 112em;
+    height: 43em;
+    left: 0em;
+}
+.placedcompany h2 {
+    /* border: 1px solid; */
+    height: 1em;
+    position: relative;
+    left: 6em;
+    width: 15em;
+    text-align: center;
+    font-size: 9vh;
+    font-family: "Poppins";
+    color: #101010;
+    font-family: "Poppins";
+    bottom: 0em;
+}
+.campus-infra {
+    background-color: #f3f3f3;
+    position: relative;
+    width: 202em;
+    left: 1em;
+    top: 6em;
+    height: 228em;
+}
+.small-img {
+    width: 129em;
+    height: 63em;
+    position: relative;
+    display: flex;
+    left: 60em;
+}
+.big-img {
+    display: none;
+}
+.campus-infra > h1 {
+    width: 12em;
+    position: relative;
+    text-align: center;
+    left: 10em;
+    font-size: 2;
+    font-size: 9vh;
+}
+    #dept {
+        height: 245em;
+        position: relative;
+        top: 117px;
+        width: 202em;
+        left: 14px;
+        flex-direction: column;
+        gap: 4em;
+    }
+
+    .Department {
+        /* border: 1px solid black;  */
+        position: relative;
+        width: 128em;
+    /* display: flex; */
+    top: 1em;
+    height: 50em;
+        /* border-radius: 2em; */
+        /* margin: 10px; */
+        /* text-align: center; */
+        left: 35em;
+        /* background-color: white; */
+        flex-direction: column;
+    }
+    .Department img {
+        position: relative;
+        height: 44em;
+        width: 128em;
+    /* border-top-left-radius: 2em; */
+    /* border-top-right-radius: 2em; */
+    bottom: 25px;
+    }
+    #dept h1 {
+        position: relative;
+    display: flex;
+    left: 12em;
+    font-size: 6em;
+    }
+    #dept h3 {
+        bottom: 92px;
+    position: relative;
+    font-size: 4em;
+    }
+    #ourclient {
+        /* border: 1px solid black;  */
+        position: relative;
+        display: flex;
+        left: 52em;
+        width: 83em;
+        height: 113em;
+        /* background-image: url(./Assest/Group--2.png); */
+        padding-top: 14vh;
+        top: -30vh;
+        flex-direction: column;
+        gap: 16em;
+    }
+    .clienttag {
+        position: relative;
+        width: 5em;
+        left: 79em;
+        top: 11em;
+    }
+    #ourclient h1 {
+            /* border: 1px solid; */
+    height: 1em;
+    width: 13em;
+    text-align: center;
+    position: relative;
+    left: 0em;
+    font-size: 6em;
+    top: 3em;
+    }
+    #ourclient img {
+        position: relative;
+        top: 4em;
+        width: 14em;
+    }
+    .clientsays {
+        position: relative;
+        width: 105em;
+    height: 68em;
+    color: white;
+    margin: 1em;
+    top: 2em;
+    left: 5em;
+    right: 13em;
+    }
+    .clientpara {
+        width: 20em;
+        left: 1em;
+        position: relative;
+        top: 1em;
+        font-size: 5em;
+    }
+    .position {
+        position: relative;
+        /* right: -18em; */
+        bottom: 4em;
+        color: #09015f;
+        font-size: 5em;
+        left: 3em;
+    }
+    .mposition{
+        position: relative;
+    top: -118px;
+        
+    }
+    #mclientname{
+        position: relative;
+        top: -434px;
+    }
+    .clientname {
+        position: relative;
+        bottom: 3em;
+        color: #09015f;
+        left: 3em;
+        font-size: 5em;
+    }
+.allbottomlinks {
+    /* background-image: url(./Assest/Rectangle\ 15\ \(1\).png); */
+    position: relative;
+    /* border: 1px solid; */
+    height: 75em;
+    top: 168em;
+    width: 202em;
+}
+.bottomlogo {
+    position: relative;
+    left: 4em;
+    top: 5em;
+    width: 23em;
+}
+.allbottomlinks p {
+    position: relative;
+    /* border: 1px solid; */
+    width: 21em;
+    left: 10em;
+    top: -8em;
+    color: white;
+    line-height: 2em;
+    font-size: 3em;
+}
+.quicklinks {
+    position: relative;
+    list-style: none;
+    float: right;
+    border: none;
+    height: 16em;
+    border-left: groove;
+    left: 1em;
+    top: -10em;
+    color: white;
+    width: 16em;
+    line-height: 87px;
+    top: -7em;
+    font-size: 61px;
+}
+.footer {
+    position: relative;
+    /* background-image: url(./Assest/footerbg.png); */
+    top: 166em;
+    width: 202em;
+}
+.footer h3 {
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 3em;
+}
+
+}
